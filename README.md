@@ -44,3 +44,23 @@ go-react-app/
 ├── README.md
 
 ```
+
+---
+
+### Cách chạy Backend, Frontend và Build
+
+### 🏗 Build toàn bộ fullstack
+
+./build.sh
+
+#### Chạy backend API
+
+bash
+cd backend
+go run main.go
+
+#### Chạy frontend dev
+
+cd frontend
+npm install # Chạy 1 lần để cài dependencies
+npm run dev # Start Vite dev server
