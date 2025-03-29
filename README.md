@@ -15,10 +15,32 @@ If you are developing a production application, we recommend using TypeScript an
 
 ## init
 
-hướng dẫn khởi tạo đầy đủ project Go (Gin) + ReactJS, hỗ trợ:
+# 🧩 Go + React Fullstack Starter
 
-✅ Chạy dev từng phần riêng
+Dự án mẫu kết hợp giữa **Golang (Gin)** và **ReactJS (Vite)**.
 
-✅ Build chung một lần, server Go sẽ phục vụ cả React + API
+## 🚀 Tính năng
 
-<pre lang="md"> <code> <details> <summary>📁 Project structure</summary> \``` go-react-app/ ├── backend/ │ └── main.go ├── frontend/ │ ├── package.json │ └── src/ ├── .gitignore ├── README.md \``` </details> </code> </pre>
+- 🧠 Backend API bằng Gin framework
+- ⚛️ Frontend ReactJS với Vite
+- 🔄 Proxy API khi dev
+- 🏗 Tự động build React vào `dist/` và Go server sẽ phục vụ giao diện đó
+- 📦 Tích hợp build script
+
+---
+
+## 📁 Cấu trúc thư mục
+
+```bash
+go-react-app/
+├── backend/              # Golang API server
+│   └── main.go
+├── frontend/             # ReactJS frontend (Vite)
+│   ├── package.json
+│   ├── vite.config.js
+│   └── src/
+├── build.sh              # Script build fullstack
+├── .gitignore
+├── README.md
+
+```
