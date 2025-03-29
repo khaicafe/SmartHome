@@ -21,4 +21,4 @@ hướng dẫn khởi tạo đầy đủ project Go (Gin) + ReactJS, hỗ trợ:
 
 ✅ Build chung một lần, server Go sẽ phục vụ cả React + API
 
-<pre lang="md"> <code> <details> <summary>📁 Project structure</summary> ``` go-react-app/ ├── backend/ │ └── main.go ├── frontend/ │ ├── package.json │ └── src/ ├── .gitignore ├── README.md ``` </details> </code> </pre>
+<pre lang="md"> <code> <details> <summary>📁 Project structure</summary> \``` go-react-app/ ├── backend/ │ └── main.go ├── frontend/ │ ├── package.json │ └── src/ ├── .gitignore ├── README.md \``` </details> </code> </pre>
